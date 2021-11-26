@@ -4,9 +4,8 @@ using System.Text;
 
 namespace CabInvoiceGenerator
 {
-    public class RideType
+    public enum RideType
     {
-        public  const int NORMAL= 0;
-        public const int PREMIUM = 1;
+        NORMAL, PREMIUM
     }
 }

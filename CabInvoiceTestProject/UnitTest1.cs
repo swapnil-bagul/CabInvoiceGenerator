@@ -15,7 +15,7 @@ namespace CabInvoiceTestProject
 
             InvoiceGenerator invoice = new InvoiceGenerator(RideType.NORMAL);
 
-            double fare = invoice.CalculateFare(distance, time);
+            double fare = invoice.calculateFare(distance, time);
 
             Assert.AreEqual(expected, fare);
         }
